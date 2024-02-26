@@ -66,9 +66,9 @@ VSCodeで拡張機能のインストール
 - WSL
 - C/C++
 ### AtCoder用の設定
-ライブラリAtCoder Library (ACL)の導入
-atcoder-cliのインストール
-online-judge-toolsのインストール
-上2つの設定
+- ライブラリAtCoder Library (ACL)の導入
+- atcoder-cliのインストール
+- online-judge-toolsのインストール
+- 上2つの設定
 
 
