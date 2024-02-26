@@ -42,3 +42,33 @@ scoop install firefox vscode musicbee discord
 ## Microsoft Store経由でインストール
 - [Monitorian](https://apps.microsoft.com/detail/9nw33j738bl0) マルチモニター環境で便利
 
+# VS Codeの環境構築(主にAtcoder用)
+## 概要
+- VS Codeの基本設定
+- WSLの設定
+- C++関連の設定
+- AtCoder用の設定
+
+### VS Codeの基本設定
+VSCodeで拡張機能のインストール
+- Japanese Language Pack for Visual Studio Code
+- Vim
+### WSLの設定
+1. [wslのインストールガイド](https://learn.microsoft.com/ja-jp/windows/wsl/install)の手順でインストール
+2. ディストリビューションでUbuntuをインストール
+3. 初期設定(ユーザー、パスワードの設定)
+4. Ubuntuのパッケージ一覧を更新&必要なパッケージの導入
+```
+sudo apt update -y && sudo apt install gcc build-essential
+```
+### C++関連の設定
+VSCodeで拡張機能のインストール
+- WSL
+- C/C++
+### AtCoder用の設定
+ライブラリAtCoder Library (ACL)の導入
+atcoder-cliのインストール
+online-judge-toolsのインストール
+上2つの設定
+
+
